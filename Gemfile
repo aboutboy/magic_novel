@@ -99,7 +99,9 @@ gem 'newrelic_rpm'
 
 gem 'paperclip'
 
-gem 'omniauth-github'
+gem "omniauth"
+gem 'omniauth-oauth2'
+# gem 'omniauth-github'
 
 group :development do
   gem 'rspec-rails'
